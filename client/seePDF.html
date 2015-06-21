@@ -1,5 +1,10 @@
 <template name="seePDF">
 {{#with seeIt}}
-<iframe src="{{this.url}}" style="width:100%; height:100%;" frameborder="0"></iframe>
+
+<div class="content">
+    <div class="embed-container">
+        <iframe src="{{this.url}}" frameborder="0"></iframe>
+    </div>
+</div>
 {{/with}}
 </template>
